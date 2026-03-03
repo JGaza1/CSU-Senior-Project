@@ -1,28 +1,32 @@
-Senior Project Proposal (Replace with Project Name)
+Project Health
 ===================================================
 
-**Student Name(s)**: Ada Lovelace (put your name here, followed by two spaces)  
-**Degree and Major**: B.S. in Cybersecurity (put your name here, followed by two spaces)  
-**Project Advisor Name**: Dr. Faulkner (put your name here, followed by two spaces)  
-**Expected Graduation Date**: May 2040 (put the correct month and day here)
+**Student Name(s)**: Joseph Gaza 
+**Degree and Major**: B.S. in Computer Science
+**Project Advisor Name**: Dr. Hayes
+**Expected Graduation Date**: August 2027
 
 
 Problem Statement
 -----------------
 
-The problem statement goes here.
+The ability to track your overall health, especially calories, would be effective in helping us to live healthy lives. Unfortunately, everybody’s body works differently, we all have different eating habits, etc.., So it’s hard to track if you’re getting the right nutrition, calories, and exercise. Everyone has their own height, weight, metabolism, and daily habits. Thus, having an app that tracks your health can eliminate the need to wonder where you stand in health. This benefits the user by tracking what they eat or what to do in terms of exercising to achieve their goals. Tracking this data can lead to a better understanding of how our body responds to exercising and what food is eaten.
 
 
 Project Description
 -------------------
 
-The project description goes here.
+An app that tracks user's calories and monitors how many calories consumed and burned through exercise and diet.
 
 
 Proposed Implementation Language(s) 
 -----------------------------------
 
-Languages go here.
+Java
+C++
+Html
+CSS
+Javascript
 
 
 Libraries, Packages, Development Kits, etc., to be used in the proposed implementation language(s)
@@ -34,7 +38,8 @@ The supporting libraries go here.
 Additional Software/Equipment Needed
 ------------------------------------
 
-List any hardware needed and software for planning, development (e.g., your IDE), testing, and deploying/distributing.
+VS Codium/ Apache NetBeans
+Fitness Device
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
@@ -43,25 +48,20 @@ Alternative Solutions and Rationale 🔍
 
 ### Alternative 1
 - **Description**:  
-  _(Briefly describe this solution or approach.)_
+  The app would be produced strictly with Java. The ui would be designed with JFrame
 - **Pros**:  
-  - _(List strengths or advantages)_
+  - Everything would be Java related in terms of code
+  - Familiar with the basics of JFrame 
 - **Cons**:  
-  - _(List weaknesses or limitations)_
-
-### Alternative 2
-- **Description**:  
-  _(Briefly describe this solution or approach.)_
-- **Pros**:  
-  - _(List strengths or advantages)_
-- **Cons**:  
-  - _(List weaknesses or limitations)_
+   - The design would look very old-fashioned and "retro"
+    - JFrame wouldn't work on mobile
 
 ### Chosen Solution and Rationale
 - **Chosen Solution**:  
-  _(Restate your selected solution.)_
+ Health app created with Java or C++, HTML, and CSS. And make it work with a fitness device.
 - **Rationale**:  
-  _(Justify your choice in comparison with the alternatives. Highlight key reasons for its selection.)_
+  - This solution would fully utilize the health app in tracking calories.
+  - UI would look modern and user friendly
 
 > 💡 *Tip: Consider using a comparison table to evaluate trade-offs across multiple criteria such as feasibility, performance, scalability, cost, and usability.*
 
@@ -69,34 +69,30 @@ Alternative Solutions and Rationale 🔍
 Personal Motivation
 -------------------
 
-Personal motivation goes here.
+My personal motivation for this project is to track my own fitness journey to gain weight and build muscle. 
 
 Outline of Future Research Efforts
 ----------------------------------
 
-(What do you need to learn or figure out to complete this project? What tasks are you going to do the do?)
+Need to learn how to make the app work with a fitness device
+Learn more in depth about html and css to fully utilize the ui design
 
 Schedule 📅
 -----------
 
-> Update the dates and add your tasks by replacing the examples. Remove this note.
 
-*   Spring 2039 - CSCI 497
+*   Spring 2026 - CSCI 497
     -   January 26 - 
     -   February 9 - 
-    -   February 23 - 
-    -   March 8 - 
-    -   March 22 - Send First-Draft of the Requirements Document to advisor for feedback
+    -   February 23 -  
+    -   March 2 - Send First-Draft of the Requirements Document to advisor for feedback
     -   April 5 - 
 
-*   Summer 2040 - Independent/Optional Project Work
-    -   June 1 - 
-
-*   Fall 2039 - CSCI 498
-    -   October 20 - 
+*   Fall 2026 - CSCI 498
+    -   October 20 - Design
     -   October 27 - 
     -   November 3 - 
-    -   November 10 - 
+    -   November 10 - Implement 
     -   November 17 - 
     -   November 20 - 
 
