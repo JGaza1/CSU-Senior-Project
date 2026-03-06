@@ -67,7 +67,7 @@ Alternative Solutions and Rationale 🔍
   - UI would look modern and user friendly
 
 
-|                      |Alternative 1: Java                                                                 || Chosen Solution: Webstack                                      |
+|----------------------|Alternative 1: Java                                                                 || Chosen Solution: Webstack                                      |
 |----------------------|------------------------------------------------------------------------------------||----------------------------------------------------------------|
 | Feasibility          | Medium: Learning how to connect APIs would pose a challenge as well as using JFrame | Medium: Can work easily with APIs, internet, and smart watches |
 
