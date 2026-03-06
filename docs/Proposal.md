@@ -69,7 +69,7 @@ Alternative Solutions and Rationale 🔍
 
 |-----**Criteria**------|**Alternative 1: Java**                                                                 || **Chosen Solution: Webstack**                                      |
 |----------------------|------------------------------------------------------------------------------------||----------------------------------------------------------------|
-| **Feasibility**          | Medium: Learning how to connect APIs would pose a challenge as well as using JFrame | Medium: Can work easily with APIs, internet, and smart watches |
+| **Feasibility**          | Hard: Connecting APIs is more challenging  | Medium: Can work easily with APIs, internet, and smart watches |
 
 
 > 💡 *Tip: Consider using a comparison table to evaluate trade-offs across multiple criteria such as feasibility, performance, scalability, cost, and usability.*
