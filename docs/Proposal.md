@@ -45,6 +45,8 @@ Additional Software/Equipment Needed
 - Fitness Device
 - Node.js with express
 - Terra 
+- Xcode
+- Capacitor
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
@@ -67,12 +69,14 @@ Alternative Solutions and Rationale 🔍
   - UI would look modern and user friendly
 
 
-|-----**Criteria**------|**Alternative 1: Java**                                                                 || **Chosen Solution: Webstack**                                      |
-|----------------------|------------------------------------------------------------------------------------||----------------------------------------------------------------|
-| **Feasibility**          | Hard: Connecting APIs is more challenging  | Medium: Can work easily with APIs, internet, and smart watches |
+|**Criteria** | **Alternative Solution 1: Java** | **Chosen Solution: Webstack** |
+|:------------| :------------------------------: | :---------------------------: |
+| **Feasibility** | Challenging to connect APIs. Would have to go through more obstacles to get it to run with both android and apple | Built to work with the internet and APIs. Less challenging to work with both android and ios
+| **Performance** | Faster than the webstack but not lightweight | Slightly slower but lightweight |
+| **Scalabiity** | Lots of work to maintain two separate codes for android and ios | Much better to update as android studio and xcode share the same code | 
+**Cost** | Free but requires a mac to run xcode for ios development | Free but requires a mac to run xcode for ios development | 
+| **Usability** | Customizable but outdated feel to the user | Highly customizable thanks to HTML and CSS. Can look modern and user-friendly
 
-
-> 💡 *Tip: Consider using a comparison table to evaluate trade-offs across multiple criteria such as feasibility, performance, scalability, cost, and usability.*
 
 
 Personal Motivation
@@ -89,33 +93,37 @@ Outline of Future Research Efforts
 - Learning how to use and implement Clerk
 - Learn how to implement AI to generate meal plan
 - Implement Terra API for fitness devices
+- Learn more about Android Studio and Xcode
 
 Schedule 📅
 -----------
 
 
 *   Spring 2026 - CSCI 497
-    -   January 26 - 
-    -   February 9 - 
-    -   February 23 -  
-    -   March 2 - Send First-Draft of the Requirements Document to advisor for feedback
-    -   April 5 - 
+    -   January 26 - Come up with project idea
+    -   February 9 - Research what's needed
+    -   February 23 - Think of ways to implement project idea
+    -   March 2 - Send first-draft of the proposal to advisor for feedback
+    -   April 5 - Send draft of required documents and receive feedback
     -   April 13 - Send completed proposal and requirements document
 
+* Summer 2026
+    - Get a macbook as Xcode requires macos
+    - Research
+
 *   Fall 2026 - CSCI 498
-    -   October 20 - Design
-    -   October 27 - 
-    -   November 3 - 
-    -   November 10 - Implement 
-    -   November 17 - 
-    -   November 20 - 
+    -   October 20 - Research (**Ask for advice and feedback**)
+    -   October 27 - Review what's required for designing the project (**Ask for advice and feedback**)
+    -   November 3 - Research (**Ask for advice and feedback**)
+    -   November 10 - Implement design (**Ask for advice and feedback**)
+    -   November 17 - Implement design (**Ask for advice and feedback**)
+    -   November 20 - Turn in final design (**Ask for advice and feedback**)
 
 *   Spring 2040 - CSCI 499 (more details will be added here once you are closer)
     -   Weeks 1-4 - Implement test plan
     -   Week 5 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
     -   Week 8 - Complete the first 4 chapters of the defense documentation.
-    -   Add the rest…
 
 
 References 📚
@@ -138,3 +146,15 @@ https://nodejs.org/en
 https://expressjs.com/
 
 https://terra-money.github.io/terra.js/
+
+https://twentyideas.com/blog/health-web-app-vs-mobile-app
+
+https://capacitorjs.com/
+
+https://www.codenameone.com/blog/how-to-build-ios-apps-with-java/#:~:text=Before%20we%20delve%20any%20further,React%20Native%20and%20Codename%20One.
+
+https://developer.apple.com/documentation/xcode 
+
+https://developer.android.com/
+
+https://www.iubenda.com/en/blog/android-studio-vs-xcode-pros-and-cons-of-each-application-development-platform/#:~:text=While%20Android%20Studio%20is%20better,seamless%20integration%20with%20Apple%20services.
