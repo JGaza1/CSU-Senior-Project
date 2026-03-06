@@ -16,14 +16,14 @@ The ability to track your overall health, especially calories, would be effectiv
 Project Description
 -------------------
 
-An app that tracks user's calories and monitors how many calories consumed and burned through exercise and diet.
+An app that tracks user's calories and monitors how many calories consumed and burned through exercise and diet. When the user is first setting up their account, it will ask for their age, height, and weight. Then it will ask for the user's goals including  The app will contain many features including a future weight loss plan by predicting how much weight the user will gain or lose based on the food consumed. The user interface will be user friendly and easy to navigate. There can be an option to customize the background.
+Another feature is the implementation of BMR calculations. BMR or Basal Metabolic Rate is the minimum amount of calories needed to function properly at a basic level. This piece of information will be useful to show to get the user an idea of their calories. For food it will be pulled from the USDA FoodData Central API. In addition to that users have the ability to generate a meal plan from using AI. 
+Users will be able to use their smart watch to track how many calories are burned through exercise or movement in general. There will be progress shown for goals. For example, since the app is already tracking their calories, the user can enter their weight again for a more accurate progress while including charts. For data security, HTTPS or Hypertext Transfer Protocol Secure which is needed for data security, will be implemented as well. For gamification, there will be a rank system included. Typically in gaming there are ranked modes in competitive games including games like Call of Duty, Rainbow Six siege, Valorant, etc.. The ranks will consist of bronze, silver, gold, platinum, emerald, diamond, and champion. They will be tailored to your goals to make it fair. Points will be included in order to know what rank you are in. Points will be earned by hitting set goals every week. 
 
 
 Proposed Implementation Language(s) 
 -----------------------------------
 
-Java
-C++
 Html
 CSS
 Javascript
@@ -58,7 +58,7 @@ Alternative Solutions and Rationale 🔍
 
 ### Chosen Solution and Rationale
 - **Chosen Solution**:  
- Health app created with Java or C++, HTML, and CSS. And make it work with a fitness device.
+ Health app created with HTML, CSS, and Javasript. And make it work with a fitness device.
 - **Rationale**:  
   - This solution would fully utilize the health app in tracking calories.
   - UI would look modern and user friendly
@@ -74,8 +74,9 @@ My personal motivation for this project is to track my own fitness journey to ga
 Outline of Future Research Efforts
 ----------------------------------
 
-Need to learn how to make the app work with a fitness device
-Learn more in depth about html and css to fully utilize the ui design
+- Need to learn how to make the app work with a fitness device
+- Learn more in depth about html and css to fully utilize the ui design
+- Learn how to use implement data security and privacy (HTTPS)
 
 Schedule 📅
 -----------
@@ -108,3 +109,9 @@ References 📚
 -------------
 
 > List any references you cited in this proposal.
+
+https://my.clevelandclinic.org/health/body/basal-metabolic-rate-bmr
+
+https://www.cloudflare.com/learning/ssl/what-is-https/
+
+https://fdc.nal.usda.gov/api-guide
