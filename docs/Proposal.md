@@ -94,6 +94,7 @@ Outline of Future Research Efforts
 - Learn how to implement AI to generate meal plan
 - Implement Terra API for fitness devices
 - Learn more about Android Studio and Xcode
+- Learn more about capacitor
 
 Schedule 📅
 -----------
