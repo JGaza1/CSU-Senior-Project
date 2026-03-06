@@ -40,6 +40,7 @@ Additional Software/Equipment Needed
 
 VS Codium/ Apache NetBeans
 Fitness Device
+Clerk
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
