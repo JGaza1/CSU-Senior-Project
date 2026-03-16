@@ -44,7 +44,6 @@ Additional Software/Equipment Needed
 - VS Codium/ Apache NetBeans
 - Fitness Device
 - Node.js with express
-- Terra 
 - Xcode
 - Capacitor
 
@@ -120,7 +119,7 @@ Schedule 📅
     -   November 17 - Implement design (**Ask for advice and feedback**)
     -   November 20 - Turn in final design (**Ask for advice and feedback**)
 
-*   Spring 2040 - CSCI 499 (more details will be added here once you are closer)
+*   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
     -   Weeks 1-4 - Implement test plan
     -   Week 5 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
@@ -159,3 +158,5 @@ https://developer.apple.com/documentation/xcode
 https://developer.android.com/
 
 https://www.iubenda.com/en/blog/android-studio-vs-xcode-pros-and-cons-of-each-application-development-platform/#:~:text=While%20Android%20Studio%20is%20better,seamless%20integration%20with%20Apple%20services.
+
+https://www.youtube.com/watch?v=yye7rSsiV6k
