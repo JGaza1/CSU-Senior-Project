@@ -16,7 +16,7 @@ The ability to track your overall health, especially calories, would be effectiv
 Project Description
 -------------------
 
-This app will track the user's calories and monitor how many calories are consumed and burned through exercise and diet. The user will first create their account with an email and password. Clerk, an authentication service, will be used to ensure a secure login. When the user is done signing up, the app will ask for their age, height, and weight. Then, it will ask for the user's goals, including a future weight loss plan by predicting how much weight the user will gain or lose based on the food consumed. The user interface will be user-friendly and easy to navigate, with an option to customize the background.
+This app will track the user's calories and monitor how many calories are consumed and burned through exercise and diet. The user will first create their account with an email and password. When the user is done signing up, the app will ask for their age, height, and weight. Then, it will ask for the user's goals, including a future weight loss plan by predicting how much weight the user will gain or lose based on the food consumed. The user interface will be user-friendly and easy to navigate, with an option to customize the background.
 
 Another feature is the implementation of BMR calculations. BMR, or Basal Metabolic Rate, is the minimum amount of calories needed to function properly at a basic level. This piece of information will be useful to get the user an idea of their caloric needs. For logging in food, it will be pulled from the USDA FoodData Central API. In addition to that, users will have the ability to generate a meal plan using AI. 
 
@@ -46,6 +46,8 @@ Additional Software/Equipment Needed
 - Node.js with express
 - Xcode
 - Capacitor
+- React
+- Recharts
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
@@ -160,3 +162,5 @@ https://developer.android.com/
 https://www.iubenda.com/en/blog/android-studio-vs-xcode-pros-and-cons-of-each-application-development-platform/#:~:text=While%20Android%20Studio%20is%20better,seamless%20integration%20with%20Apple%20services.
 
 https://www.youtube.com/watch?v=yye7rSsiV6k
+
+https://react.dev/

@@ -1,23 +1,23 @@
 # Software Requirements Specification
 
 ## Project Name
-*Enter project name here*
+**Project Health**
 
 ## Requirement Author
-*Student name(s)*
+**Joseph Gaza**
 
 ## Version
-*e.g., v1.0*
+ **v1.0**
 
 ## Date
-*YYYY-MM-DD*
+**2026-04-07**
 
 ---
 
 ## Requirement: <ID>
 
 **ID:**  
-<e.g., FR-01, US-03, SEC-02>
+<e.g., HT-01>
 
 **Type:**  
 <Functional | Usability | Performance | Security | etc.>
