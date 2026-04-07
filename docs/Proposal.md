@@ -36,7 +36,7 @@ Libraries, Packages, Development Kits, etc., to be used in the proposed implemen
 
 - Terra.js
 - Clerk 
-
+- React
 
 Additional Software/Equipment Needed
 ------------------------------------
@@ -46,7 +46,6 @@ Additional Software/Equipment Needed
 - Node.js with express
 - Xcode
 - Capacitor
-- React
 - Recharts
 
 Alternative Solutions and Rationale 🔍
