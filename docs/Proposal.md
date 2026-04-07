@@ -95,6 +95,7 @@ Outline of Future Research Efforts
 - Implement Terra API for fitness devices
 - Learn more about Android Studio and Xcode
 - Learn more about capacitor
+- Learn how to use react and recharts
 
 Schedule 📅
 -----------
