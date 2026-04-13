@@ -157,6 +157,8 @@ https://docs.tryterra.co/
 
 https://clerk.com/docs/reference/javascript/overview
 
+https://clerk.com/react-authentication?utm_source=google&utm_medium=cpc&utm_campaign=SC_Google_Search_Framework_US&utm_adgroup=Framework_React&utm_term=react%20authentication&gad_source=1&gad_campaignid=22311662287&gbraid=0AAAAAqJUiX6HmBr8iv2jK2B1hE8qx9-S3&gclid=CjwKCAjwnN3OBhA8EiwAfpTYej1kdui5IiOlSyY-KRxDfayz5YJkYrU7ZUpjc9kAb6jGmrfVQ0vt3xoC7C4QAvD_BwE
+
 https://nodejs.org/en
 
 https://expressjs.com/
