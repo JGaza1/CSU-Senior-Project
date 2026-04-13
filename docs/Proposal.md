@@ -34,9 +34,13 @@ Proposed Implementation Language(s)
 Libraries, Packages, Development Kits, etc., to be used in the proposed implementation language(s)
 --------------------------------------------------------------------------------------------------
 
-- Terra.js
-- Clerk 
+- capacitor-community/apple-healthkit (allows React to read iphone health data)
+- Clerk
+- Authentication (supabase-js) 
 - React
+- Ionic(IOS UI components)
+- Swift
+- Better auth
 
 Additional Software/Equipment Needed
 ------------------------------------
@@ -47,6 +51,16 @@ Additional Software/Equipment Needed
 - Xcode
 - Capacitor
 - Recharts
+- PostgreSQL(Alternative MongoDB) 
+- Google Gemini (To generate meal plans)
+- Axios (USDA FoodData Central API)
+- Fetch (USDA FOodData Central API)
+- bcrypt (Security)
+- Postman (Testing backend API routes)
+- Insomnia (Testing backend API routes)
+
+- Swift Charts
+- URLSession (Built in tool)
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
@@ -61,41 +75,41 @@ Alternative Solutions and Rationale 🔍
    - The design would look very old-fashioned and "retro"
     - JFrame wouldn't work on mobile
 
-### Chosen Solution and Rationale
-- **Chosen Solution**:  
+### Alternative 2
+- **Description**:  
  Health app created with HTML, CSS, and Javasript. And make it work with a fitness device.
 - **Rationale**:  
   - This solution would fully utilize the health app in tracking calories.
   - UI would look modern and user friendly
 
 
-|**Criteria** | **Alternative Solution 1: Java** | **Chosen Solution: Webstack** |
-|:------------| :------------------------------: | :---------------------------: |
-| **Feasibility** | Challenging to connect APIs. Would have to go through more obstacles to get it to run with both android and apple | Built to work with the internet and APIs. Less challenging to work with both android and ios
-| **Performance** | Faster than the webstack but not lightweight | Slightly slower but lightweight |
-| **Scalabiity** | Lots of work to maintain two separate codes for android and ios | Much better to update as android studio and xcode share the same code | 
-**Cost** | Free but requires a mac to run xcode for ios development | Free but requires a mac to run xcode for ios development | 
-| **Usability** | Customizable but outdated feel to the user | Highly customizable thanks to HTML and CSS. Can look modern and user-friendly
+|**Criteria** | **Alternative Solution 1: Java** | **Alternative Solution 2: Webstack** | **Alternative Solution 3: Apple** |
+|:------------| :------------------------------: | :---------------------------: | :--------------------------------: |
+| **Feasibility** | Challenging to connect APIs. Would have to go through more obstacles to get it to run with both android and apple | Built to work with the internet and APIs. Less challenging to work with both android and ios | Would have to learn Swift and work with SwiftUI. Using XCode and Swift Charts
+| **Performance** | Faster than the webstack but not lightweight | Slightly slower but lightweight | Fluid framerates thanks to SwiftUI's native rendering. Zero latency because it's native to apple | 
+| **Scalabiity** | Lots of work to maintain two separate codes for android and ios | Much better to update as android studio and xcode share the same code | Swift is completely modular |
+**Cost** | Free but requires a mac to run xcode for ios development | Free but requires a mac to run xcode for ios development | Most additional software, libraries, etc. are free
+| **Usability** | Customizable but outdated feel to the user | Highly customizable thanks to HTML and CSS. Can look modern and user-friendly | Completely native 
 
 
 
 Personal Motivation
 -------------------
 
-My personal motivation for this project is to track my own fitness journey to gain weight and build muscle. 
+My personal motivation for this project is to learn Swift and its counterparts. Additionally I want to learn how app development works, how specific APIs function, and how different frameworks, libraries, etc. work. I'm curious to see how I can create a beneficial app while providing gamification for users to enjoy.
 
 Outline of Future Research Efforts
 ----------------------------------
 
 - Need to learn how to make the app work with a fitness device
+   - Connecting user's health to the iphone and apple watch
 - Learn more in depth about html and css to fully utilize the ui design
+-  Developing the frontend (React, or SwiftUI)
+    - Watch tutorials on how to work with Swiftcharts
 - Learn how to use implement data security and privacy (HTTPS)
 - Learning how to use and implement Clerk
 - Learn how to implement AI to generate meal plan
-- Implement Terra API for fitness devices
-- Learn more about Android Studio and Xcode
 - Learn more about capacitor
-- Learn how to use react and recharts
 
 Schedule 📅
 -----------
@@ -166,3 +180,25 @@ https://www.youtube.com/watch?v=yye7rSsiV6k
 https://react.dev/
 
 https://recharts.github.io/
+
+https://developer.apple.com/swiftui/
+
+https://developer.apple.com/swift/
+
+https://www.postgresql.org/
+
+https://supabase.com/
+
+https://www.postman.com/
+
+https://insomnia.rest/
+
+https://developer.apple.com/documentation/healthkit
+
+https://developer.apple.com/documentation/foundation/urlsession
+
+https://ai.google.dev/gemini-api/docs
+
+https://ionicframework.com/
+
+https://better-auth.com/
