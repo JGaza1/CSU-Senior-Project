@@ -600,3 +600,81 @@ Swiping from the main menu to the charts will be smooth with little to no stutte
 None
 
 ---
+
+## Requirement: <ID>
+
+**ID:**  
+HTP-03
+
+**Type:**  
+**Performance**
+
+**Description:**  
+The app should be able to function to an extent when offline
+
+**Rationale:**  
+Save the user's data if they suddenly lost connection
+
+**Fit Criterion:**  
+The user goes on the app and logs how many calories they consumed without waiting for a connection 
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTS-01
+
+**Type:**  
+**Security**
+
+**Description:**  
+The app will never sell your information to anyone
+
+**Rationale:**  
+The app will not profit this way
+
+**Fit Criterion:**  
+The app will state that your information will not be sold to anyone
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTS-02
+
+**Type:**  
+**Security**
+
+**Description:**  
+The app will protect user passwords with encryption
+
+**Rationale:**  
+To hide user passwords in the database
+
+**Fit Criterion:**  
+If the source code were to be seen by anyone, passwords would be hashed
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---

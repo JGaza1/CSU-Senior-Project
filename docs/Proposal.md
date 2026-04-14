@@ -60,7 +60,9 @@ Additional Software/Equipment Needed
 - Insomnia (Testing backend API routes)
 
 - Swift Charts
-- URLSession (Built in tool)
+- URLSession (Securely transport data)
+- Swiftdata
+- Network (Apple built-in framework)
 
 - Custom UI and profile pictures
     - Figma
@@ -71,6 +73,9 @@ Additional Software/Equipment Needed
     - Procreate (one time purchase) (ipad)
     - Photopea
 
+- Security
+    - Argon2
+    - Bcrypt
 Alternative Solutions and Rationale 🔍
 --------------------------------------
 
