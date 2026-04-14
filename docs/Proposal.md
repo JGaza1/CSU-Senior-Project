@@ -76,6 +76,7 @@ Additional Software/Equipment Needed
 - Security
     - Argon2
     - Bcrypt
+    
 Alternative Solutions and Rationale 🔍
 --------------------------------------
 
