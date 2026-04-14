@@ -16,11 +16,11 @@ The ability to track your overall health, especially calories, would be effectiv
 Project Description
 -------------------
 
-This app will track the user's calories and monitor how many calories are consumed and burned through exercise and diet. The user will first create their account with an email and password. When the user is done signing up, the app will ask for their age, height, and weight. Then, it will ask for the user's goals, including a future weight loss plan by predicting how much weight the user will gain or lose based on the food consumed. The user interface will be user-friendly and easy to navigate, with an option to customize the background.
+This app will track the user's calories and monitor how many calories are consumed and burned through exercise and diet. The user will first create their account with an email and password. When the user is done signing up, the app will ask for their age, height, and weight. Then, it will ask for the user's goals, including a future weight loss or gain plan by calculating how much food the user will need to eat based on whether they want to gain or lose weight. The user interface will be user-friendly and easy to navigate, with an option to customize the background.
 
 Another feature is the implementation of BMR calculations. BMR, or Basal Metabolic Rate, is the minimum amount of calories needed to function properly at a basic level. This piece of information will be useful to get the user an idea of their caloric needs. For logging in food, it will be pulled from the USDA FoodData Central API. In addition to that, users will have the ability to generate a meal plan using AI. 
 
-Users will be able to use their smart watch to track how many calories are burned through exercise or general movement. Since the app is already tracking their calories, the user can regularly update their weight to view their progress through visual charts. For data security, HTTPS (Hypertext Transfer Protocol Secure) will be implemented as well. Finally, for gamification, there will be a rank system included. Typically in gaming, there are ranked modes in competitive games like Call of Duty, Rainbow Six Siege, Valorant, etc. The ranks will consist of Bronze, Silver, Gold, Platinum, Emerald, Diamond, and Champion. Ranks will be tailored to their goals to make it fair, and users can earn points by hitting set goals every week.
+Users will be able to use their smart watch to track how many calories are burned through exercise or general movement. Since the app is already tracking their calories, the user can regularly update their weight to view their progress through visual charts. For data security, HTTPS (Hypertext Transfer Protocol Secure) will be implemented as well. Finally, for gamification, there will be a resource gathering system implemented. As the user hits a small goal towards their main goal, certain resources will be rewarded to the user. As a result they can "craft" a unique UI or profile picture.
 
 
 Proposed Implementation Language(s) 
@@ -62,6 +62,15 @@ Additional Software/Equipment Needed
 - Swift Charts
 - URLSession (Built in tool)
 
+- Custom UI and profile pictures
+    - Figma
+    - Penpot
+    - Affinity (one time purchase)
+    - Inkscape
+    - Pixelmator Pro (one time purchase)
+    - Procreate (one time purchase) (ipad)
+    - Photopea
+
 Alternative Solutions and Rationale 🔍
 --------------------------------------
 
@@ -83,12 +92,12 @@ Alternative Solutions and Rationale 🔍
   - UI would look modern and user friendly
 
 
-|**Criteria** | **Alternative Solution 1: Java** | **Alternative Solution 2: Webstack** | **Alternative Solution 3: Apple** |
+|**Criteria** | **Alternative Solution 1: Java** | **Alternative Solution 2: Webstack** | **Chosen Solution: Apple** |
 |:------------| :------------------------------: | :---------------------------: | :--------------------------------: |
 | **Feasibility** | Challenging to connect APIs. Would have to go through more obstacles to get it to run with both android and apple | Built to work with the internet and APIs. Less challenging to work with both android and ios | Would have to learn Swift and work with SwiftUI. Using XCode and Swift Charts
 | **Performance** | Faster than the webstack but not lightweight | Slightly slower but lightweight | Fluid framerates thanks to SwiftUI's native rendering. Zero latency because it's native to apple | 
 | **Scalabiity** | Lots of work to maintain two separate codes for android and ios | Much better to update as android studio and xcode share the same code | Swift is completely modular |
-**Cost** | Free but requires a mac to run xcode for ios development | Free but requires a mac to run xcode for ios development | Most additional software, libraries, etc. are free
+**Cost** | Free but requires a mac to run xcode for ios development | Free but requires a mac to run xcode for ios development | Most additional software, libraries, etc. are free, but, the apple developer program is $99/year
 | **Usability** | Customizable but outdated feel to the user | Highly customizable thanks to HTML and CSS. Can look modern and user-friendly | Completely native 
 
 
@@ -107,8 +116,9 @@ Outline of Future Research Efforts
 -  Developing the frontend (React, or SwiftUI)
     - Watch tutorials on how to work with Swiftcharts
 - Learn how to use implement data security and privacy (HTTPS)
-- Learning how to use and implement Clerk
-- Learn how to implement AI to generate meal plan
+- Learning how to use and implement authentication APIs
+- Learn how to implement Google Gemini to generate meal plans
+    - Look at the google gemini website to see how to implement AI into the app
 - Learn more about capacitor
 
 Schedule 📅
@@ -204,3 +214,5 @@ https://ai.google.dev/gemini-api/docs
 https://ionicframework.com/
 
 https://better-auth.com/
+
+https://developer.apple.com/get-started/
