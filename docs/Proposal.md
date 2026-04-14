@@ -20,7 +20,7 @@ This app will track the user's calories and monitor how many calories are consum
 
 Another feature is the implementation of BMR calculations. BMR, or Basal Metabolic Rate, is the minimum amount of calories needed to function properly at a basic level. This piece of information will be useful to get the user an idea of their caloric needs. For logging in food, it will be pulled from the USDA FoodData Central API. In addition to that, users will have the ability to generate a meal plan using AI. 
 
-Users will be able to use their smart watch to track how many calories are burned through exercise or general movement. Since the app is already tracking their calories, the user can regularly update their weight to view their progress through visual charts. For data security, HTTPS (Hypertext Transfer Protocol Secure) will be implemented as well. Finally, for gamification, there will be a resource gathering system implemented. As the user hits a small goal towards their main goal, certain resources will be rewarded to the user. As a result they can "craft" a unique UI or profile picture.
+Users will be able to use their smart watch to track how many calories are burned through exercise or general movement. Since the app is already tracking their calories, the user can regularly update their weight to view their progress through visual charts. For data security, URLsession will be implemented. Finally, for gamification, there will be a resource gathering system implemented. As the user hits a small goal towards their main goal, certain resources will be rewarded to the user. As a result they can "craft" a unique UI or profile picture.
 
 
 Proposed Implementation Language(s) 
@@ -76,7 +76,7 @@ Additional Software/Equipment Needed
 - Security
     - Argon2
     - Bcrypt
-    
+
 Alternative Solutions and Rationale 🔍
 --------------------------------------
 
