@@ -98,7 +98,7 @@ Alternative Solutions and Rationale 🔍
   - UI would look modern and user friendly
 
 
-|**Criteria** | **Alternative Solution 1: Java** | **Alternative Solution 2: Webstack** | **Chosen Solution: Apple** |
+|**Criteria** | **Alternative Solution 1: Java** | **Alternative Solution 2: Webstack** | **Chosen Solution: Apple(Swift)** |
 |:------------| :------------------------------: | :---------------------------: | :--------------------------------: |
 | **Feasibility** | Challenging to connect APIs. Would have to go through more obstacles to get it to run with both android and apple | Built to work with the internet and APIs. Less challenging to work with both android and ios | Would have to learn Swift and work with SwiftUI. Using XCode and Swift Charts
 | **Performance** | Faster than the webstack but not lightweight | Slightly slower but lightweight | Fluid framerates thanks to SwiftUI's native rendering. Zero latency because it's native to apple | 
@@ -118,14 +118,21 @@ Outline of Future Research Efforts
 
 - Need to learn how to make the app work with a fitness device
    - Connecting user's health to the iphone and apple watch
-- Learn more in depth about html and css to fully utilize the ui design
+   - Reading the apple website on how to use apple HealthKit
+   - Watch videos on apple HealthKit
 -  Developing the frontend (React, or SwiftUI)
     - Watch tutorials on how to work with Swiftcharts
-- Learn how to use implement data security and privacy (HTTPS)
+    - Look at swift code examples
+    - Learn the syntax for swift code
+- Learn how to use implement data security and privacy
+    - Look into URLSession and see how it works
+    - Research how Argon2 works and how it can hash user passwords
+    - Watch video tutorials on data security when creating apps
 - Learning how to use and implement authentication APIs
 - Learn how to implement Google Gemini to generate meal plans
     - Look at the google gemini website to see how to implement AI into the app
 - Learn more about capacitor
+- For offline use look on how NWPathMonitor works as it is apple's network framework
 
 Schedule 📅
 -----------
@@ -222,3 +229,5 @@ https://ionicframework.com/
 https://better-auth.com/
 
 https://developer.apple.com/get-started/
+
+https://developer.apple.com/documentation/network/nwpathmonitor
