@@ -480,7 +480,7 @@ HTU-1
 **Usability**
 
 **Description:**  
-Have a resource system for gamification
+This app will motivate users to meet their fitness goals
 
 **Rationale:**  
 To store certain in game resources for the gamification
@@ -493,5 +493,110 @@ There will be a certain amount of resources in the game to craft a specific UI. 
 |**High**|
 
 **Dependencies:**  
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTA-01
+
+**Type:**  
+**Appearance & Style**
+
+**Description:**  
+The user interface will have a modern theme to it similar to apple's theme. The menu will be well organized and simple
+
+**Rationale:**  
+To not overwhelm users
+
+**Fit Criterion:**  
+If the user wants to log in their calorie intake there will be a tab to get there instead of going through multiple tabs
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTU-02
+
+**Type:**  
+**Usability**
+
+**Description:**  
+On average this app will be suitable for ages 14 and up to use.
+
+**Rationale:**  
+To not make it overly complicated for all ages
+
+**Fit Criterion:**  
+in the main menu there will be a question mark. Upon clicking it, there will be a page explaining what calories are and how they affect your body.
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTP-01
+
+**Type:**  
+**Performance**
+
+**Description:**  
+All of the UI animations and charts will show at a consistent rate of 60 fps or 120 fps depending on the apple device
+
+**Rationale:**  
+To make it smooth and consistent for users
+
+**Fit Criterion:**  
+Swiping from the main menu to the charts will be smooth with little to no stuttering
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTP-02
+
+**Type:**  
+**Performance**
+
+**Description:**  
+All of the UI animations and charts will show at a consistent rate of 60 fps or 120 fps depending on the apple device
+
+**Rationale:**  
+To make it smooth and consistent for users
+
+**Fit Criterion:**  
+Swiping from the main menu to the charts will be smooth with little to no stuttering
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
 
 ---
