@@ -31,16 +31,13 @@ Proposed Implementation Language(s)
 Libraries, Packages, Development Kits, etc., to be used in the proposed implementation language(s)
 --------------------------------------------------------------------------------------------------
 
-- Apple Healthkit (allows React to read iphone health data)
-- Authentication (supabase-js) 
-- React
-- Ionic(IOS UI components)
+- Apple Healthkit (allows for health and workout data on the iphone and the apple watch) 
+- Supabase Swift SDK
 
 Additional Software/Equipment Needed
 ------------------------------------
 
-- VS Codium/ Apache NetBeans
-- Fitness Device
+- Apple Watch
 - Xcode
 - PostgreSQL(Alternative MongoDB) 
 - Google Gemini (To generate meal plans)
@@ -109,7 +106,7 @@ Outline of Future Research Efforts
    - Connecting user's health to the iphone and apple watch
    - Reading the apple website on how to use apple HealthKit
    - Watch videos on apple HealthKit
--  Developing the frontend (React, or SwiftUI)
+-  Developing the frontend (SwiftUI)
     - Watch tutorials on how to work with Swiftcharts
     - Look at swift code examples
     - Learn the syntax for swift code
@@ -120,7 +117,6 @@ Outline of Future Research Efforts
 - Learning how to use and implement authentication APIs
 - Learn how to implement Google Gemini to generate meal plans
     - Look at the google gemini website to see how to implement AI into the app
-- Learn more about capacitor
 - For offline use look on how NWPathMonitor works as it is apple's network framework
 
 Schedule 📅
@@ -140,6 +136,12 @@ Schedule 📅
     - Research
 
 *   Fall 2026 - CSCI 498
+    -   August 25 - Start implementing Project Health
+        - Make the starting app page
+    -   August 31 - Start implementing the authentication with supabase swift sdk
+        - Download the required packages related to supabase
+        - Start implementing the registration for the user
+        - Set up database(PostgreSQL) for registered users
     -   October 20 - Research (**Ask for advice and feedback**)
     -   October 27 - Review what's required for designing the project (**Ask for advice and feedback**)
     -   November 3 - Research (**Ask for advice and feedback**)
