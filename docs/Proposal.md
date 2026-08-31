@@ -41,7 +41,6 @@ Additional Software/Equipment Needed
 
 - VS Codium/ Apache NetBeans
 - Fitness Device
-- Node.js with express
 - Xcode
 - PostgreSQL(Alternative MongoDB) 
 - Google Gemini (To generate meal plans)
