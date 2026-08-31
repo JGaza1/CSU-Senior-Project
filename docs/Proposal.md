@@ -25,22 +25,16 @@ Users will be able to use their smart watch to track how many calories are burne
 
 Proposed Implementation Language(s) 
 -----------------------------------
-
-- Html
-- CSS
-- Javascript
+- Swift
 
 
 Libraries, Packages, Development Kits, etc., to be used in the proposed implementation language(s)
 --------------------------------------------------------------------------------------------------
 
-- capacitor-community/apple-healthkit (allows React to read iphone health data)
-- Clerk
+- Apple Healthkit (allows React to read iphone health data)
 - Authentication (supabase-js) 
 - React
 - Ionic(IOS UI components)
-- Swift
-- Better auth
 
 Additional Software/Equipment Needed
 ------------------------------------
@@ -49,13 +43,10 @@ Additional Software/Equipment Needed
 - Fitness Device
 - Node.js with express
 - Xcode
-- Capacitor
-- Recharts
 - PostgreSQL(Alternative MongoDB) 
 - Google Gemini (To generate meal plans)
 - Axios (USDA FoodData Central API)
 - Fetch (USDA FOodData Central API)
-- bcrypt (Security)
 - Postman (Testing backend API routes)
 - Insomnia (Testing backend API routes)
 
@@ -74,8 +65,7 @@ Additional Software/Equipment Needed
     - Photopea
 
 - Security
-    - Argon2
-    - Bcrypt
+    - Supabase
 
 Alternative Solutions and Rationale 🔍
 --------------------------------------
