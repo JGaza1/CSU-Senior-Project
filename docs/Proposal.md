@@ -146,6 +146,7 @@ Schedule 📅
     -   September 7 - Implement the new user screen (Asks for age, height, weight)
     -   September 8 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
     -   September 14 - Install apple healhkit to get calorie calculations
+    -   September 15 - Start implementing gamification (Gatcha)
     -   September 21 - Pull nutrition facts from the axios or fetch API
     -   September 22 - Implement users manually logging in food they ate
     -   September 28 - Implement the workouts 
