@@ -143,15 +143,20 @@ Schedule 📅
         - Download the required packages related to supabase
         - Start implementing the registration for the user
         - Set up database(PostgreSQL) for registered users
-    -   September 7 - Implement the new user screen (Asks for age, height, weight)
-    -   September 8 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
+    -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight)
+                    - Include backend logic for creating and logging into the app
+                    - Integrate supabase into backend code
+    -   September 13 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
     -   September 14 - Install apple healhkit to get calorie calculations
-    -   September 15 - Start implementing gamification (Gatcha)
     -   September 21 - Pull nutrition facts from the axios or fetch API
     -   September 22 - Implement users manually logging in food they ate
     -   September 28 - Implement the workouts 
     -   September 29 - Create charts to show progression to the user in terms of calories burned. 
     -   October 5 - Complete Test Plans
+    - October 12 - 13 - Start implementing gamification (Gatcha)
+    - October 19 - 20 - Make custom images with google gemini or with help from friends
+    - October 26 - 27 - Implement Google gemini to generate meal plans
+    - November 2 - 3 - Create test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
     -   Weeks 1-4 - Implement test plan
