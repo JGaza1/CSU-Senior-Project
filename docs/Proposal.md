@@ -147,7 +147,8 @@ Schedule 📅
         - Include backend logic for creating and logging into the app
         - Integrate supabase into backend code
     -   September 13 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
-    -   September 14 - Install apple healhkit to get calorie calculations
+    -   September 14 - Make an ERD showing mapping out the design of Project Health
+    -   September 20 - Install apple healhkit to get calorie calculations
     -   September 21 - Pull nutrition facts from the axios or fetch API
     -   September 22 - Implement users manually logging in food they ate
     -   September 28 - Implement the workouts (research apple healthkit)
