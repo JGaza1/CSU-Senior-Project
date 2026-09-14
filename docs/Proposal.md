@@ -143,10 +143,10 @@ Schedule 📅
         - Download the required packages related to supabase
         - Start implementing the registration for the user
         - Set up database(PostgreSQL) for registered users
-    -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight)
+    -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight) (Onboarding Process)
         - Include backend logic for creating and logging into the app
         - Integrate supabase into backend code
-    -   September 14 - Make an ERD showing mapping out the design of Project Health
+    -   September 14 - Make an ERD mapping out the database design of Project Health
         - Create tables for supabase
     -   September 15 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
         - Add different goal types
