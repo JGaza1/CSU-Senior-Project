@@ -157,8 +157,8 @@ Schedule 📅
     -   September 29 - Create charts to show progression to the user in terms of calories burned. 
     -   October 5 - Complete Test Plans
     - October 12 - 13 - Start implementing gamification (Gatcha)
-    - October 19 - 20 - Make custom images with google gemini or with help from friends
-    - October 26 - 27 - Implement Google gemini to generate meal plans
+    - October 19 - 20 - Make custom images with google gemini, ChatGPT, or with help from friends
+    - October 26 - 27 - Implement Google gemini to generate meal plans (Or ChatGPT)
     - November 2 - 3 - Create test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
