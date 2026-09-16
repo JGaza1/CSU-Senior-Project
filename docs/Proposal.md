@@ -146,11 +146,11 @@ Schedule 📅
     -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight) (Onboarding Process)
         - Include backend logic for creating and logging into the app
         - Integrate supabase into backend code
-    -   September 14 - Make an ERD mapping out the database design of Project Health
+    -   September 14-15 - Make an ERD mapping out the database design of Project Health
         - Create tables for supabase
-    -   September 15 - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
-        - Add different goal types
     -   September 20 - Install apple healhkit to get calorie calculations
+        - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
+        - Add different goal types
     -   September 21 - Pull nutrition facts from the axios or fetch API
     -   September 22 - Implement users manually logging in food they ate
     -   September 28 - Implement the workouts (research apple healthkit)
