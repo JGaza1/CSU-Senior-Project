@@ -232,3 +232,5 @@ https://better-auth.com/
 https://developer.apple.com/get-started/
 
 https://developer.apple.com/documentation/network/nwpathmonitor
+
+https://fdc.nal.usda.gov/api-guide/?utm_source=chatgpt.com
