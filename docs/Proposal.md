@@ -40,9 +40,7 @@ Additional Software/Equipment Needed
 - Apple Watch
 - Xcode
 - PostgreSQL(Alternative MongoDB) 
-- Google Gemini (To generate meal plans)
-- Axios (USDA FoodData Central API)
-- Fetch (USDA FOodData Central API)
+- ChatGPT (To generate meal plans)
 - Postman (Testing backend API routes)
 - Insomnia (Testing backend API routes)
 
@@ -151,7 +149,7 @@ Schedule 📅
     -   September 20 - Install apple healhkit to get calorie calculations
         - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
         - Add different goal types
-    -   September 21 - Pull nutrition facts from the axios or fetch API
+    -   September 21 - Pull food and nutrition from USDA FoodData Central API 
     -   September 22 - Implement users manually logging in food they ate
     -   September 28 - Implement the workouts (research apple healthkit)
     -   September 29 - Create charts to show progression to the user in terms of calories burned. 
