@@ -391,13 +391,13 @@ HTF-11
 **Functional**
 
 **Description:**  
-Google gemini can be used to generate meal plans for the user to help achieve the user's goals
+ChatGPT can be used to generate meal plans for the user to help achieve the user's goals
 
 **Rationale:**  
 If the user is unsure what to eat in order to lose or gain weight, AI can be used to generate a meal plan.
 
 **Fit Criterion:**  
-Ai is being asked to generate a meal plan to go from 130 to 150 in 6 months. Gemini will have a list on what food to eat for breakfast, lunch, dinner, and any snacks to progress further into weight goal.
+Ai is being asked to generate a meal plan to go from 130 to 150 in 6 months. ChatGPT will have a list on what food to eat for breakfast, lunch, dinner, and any snacks to progress further into weight goal.
 
 **Priority:**  
 
