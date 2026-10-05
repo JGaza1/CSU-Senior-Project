@@ -152,7 +152,7 @@ Asking the user for permission to track their basal metabolic rate. If the user 
 ## Requirement: <ID>
 
 **ID:**  
-HTF-04
+HTF-04a
 
 **Type:**  
 **Functional**
@@ -165,6 +165,35 @@ Storing true and accurate nutritional facts
 
 **Fit Criterion:**  
 Instead of users manually entering how much calories a certain food is, the app will have the correct calories for a certain item thanks to the USDA FoodData Central API
+
+**Priority:**  
+
+|**Medium**|
+
+**Dependencies:**  
+
+- HTF-01
+- HTF-02
+- HTF-03
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTF-04b
+
+**Type:**  
+**Functional**
+
+**Description:**  
+The app will able to have users manually enter what food they have consumed
+
+**Rationale:**  
+If USDA FoodData Central API can't retrieve a specific food item
+
+**Fit Criterion:**  
+Users can enter a homecooked meal's macros
 
 **Priority:**  
 

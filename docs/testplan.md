@@ -100,6 +100,7 @@ Evaluate new features and bug fixes introduced in this release.
 
 **Dashboard Validation** 
 **(HTF-02)**
+**(HTA-01)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | -------- |
 |  1  |  Username         | After logging in or onboarding, the user is taken to the dashboard      | User name is shown at the "Welcome back, <i>**username"**                 |          |
@@ -135,11 +136,31 @@ Evaluate all reports introduced in previous releases.
 
 ### Regression Test Cases
 
+**Authentication & Onboarding**
+**(HTF-02)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | OBSERVED |
 | --: | --------- | ----- | ---------------- | -------- |
-|  1  | Authentication          |       |                  |          |
-|  2  |           |       |                  |          |
+|  1  | Verify existing login works  | User types in valid input for email and password     | User can still login after entering credentials and hitting "Log in"                 |          |
+|  2  | Verify new account creation still functions correctly   | User types in valid input for username, email, password, confirmed password      | User is able to create an account after hitting "Create Account" button                 |          |
+|  3  | Verify that new users are always taken to onboarding          | User hits the sign up button and is prompted to enter valid input                |  User enters valid input hits "Create Account" button and is taken to onboarding              |      |
+|  4  |  Verify that existing users are always taken to the dashboard         | User enter valid credentials and logs in                 |  User is taken to the dashboard screen              |      |
 
+
+**Dashboard**
+**(HTA-01)**
+| #   | OBJECTIVE | INPUT | EXPECTED RESULTS | OBSERVED |
+| --: | --------- | ----- | ---------------- | -------- |
+|  1  | Verify dashboard loads and displays Username, weight, height, age, and goal name          | User logs in or finishes onboarding      | Dashboard correctly shows exact user input                  |          |
+|  2  | Verify dasboard loads and displays Apple Health data          | User logs in or finishes onboarding and grants permission for the app to track their health info      |  Dashboard shows steps, active calories, and resting calories                |          |
+|  3  | Verify that the dashboard refresh updates the user data displayed          | User scrolls all the way up activating the "pull to refresh"                 | User data is updated with new values               |      |
+|  4  | Verify that goals in the dashboard still show the correct goal and progress          | User has exercised and has logged in food                | Dashboard shows progress bar progressing closer to 100%               |      |
+
+**USDA**
+**(HTF-04)**
+| #   | OBJECTIVE | INPUT | EXPECTED RESULTS | OBSERVED |
+| --: | --------- | ----- | ---------------- | -------- |
+|  1  | Verify that food search works correctly          | User types in "Apple"      | Different kinds of apples show up on the results view                 |          |
+|  2  | Verify that food macros are shown correctly          | User clicks on apple      |  The screen shows the nutrition facts about the apple                |          |
 
 INTEGRATION TEST
 ----------------
@@ -182,7 +203,8 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  5  | HealthKit Functionality         | User is in dashboard                 | Unavailable health data doesn't make the app crash               |      |
 
 **USDA FoodData Central""
-**(HTF-04)**
+**(HTF-04a)**
+**(HTF-04b)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  | Food searching          | User types in a food      |  Search results show matching user input                |                   |
@@ -202,6 +224,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  3  | Different users in the same device         | User 1 logs out and User 2 signs in      |  In supabase there should be separate health_profiles                |                   |
 
 
+
 USER-ACCEPTANCE TEST
 --------------------
 
@@ -218,8 +241,12 @@ form, *scenarios*, scripts to read, and data collection methods.
 
 | #   | TEST ITEM | EXPECTED RESULTS | ACTUAL RESULTS | DATE |
 | --: | --------- | ---------------- | -------------- | ---- |
-|  1  |           |                  |                |      |
-|  2  |           |                  |                |      |
+|  1  | Complete the flow of Project Health with (Creating account, onboarding, dashboard) (Logging in, dashboard) (**Developer**)       | Creating account works, Onboarding works, Apple health permission is granted, Dashboard displays correct info, food search, and food details work with no errors                |                |      |
+|  2  | Complete the flow of Project Health with (Creating account, onboarding, dashboard) (Logging in, dashboard) (**Outside User**)         |  Creating account works, Onboarding works, outside user grants permission to show health info, Dashboard displays correct info, food search, and food details work with no errors               |                |      |
+
+**Explanation**
+- User acceptance testing will be accomplished by creating a new account and going through the onboarding process on the same device
+- Another user from another device will also create their own account and go through the onboarding process**
 
 
 Test Deliverables
