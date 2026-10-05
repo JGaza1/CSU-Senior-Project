@@ -219,8 +219,8 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 **(HTS-04)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
-|  1  | Health data fetch for correct user          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                   |
-|  2  | HealthKit data updates to the existing user in supabase(No duplicate rows for the same user)          |       |                  |                   |
+|  1  | Health data fetch for correct user          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                  |
+|  2  | HealthKit data updates to the existing user in supabase(No duplicate rows for the same user)          | User logs in or scrolls up to activate "pull to refresh"      | In supabase there should be only one row still tied to that user                 |                   |
 |  3  | Different users in the same device         | User 1 logs out and User 2 signs in      |  In supabase there should be separate health_profiles                |                   |
 
 
