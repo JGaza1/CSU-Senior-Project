@@ -182,6 +182,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  5  | HealthKit Functionality         | User is in dashboard                 | Unavailable health data doesn't make the app crash               |      |
 
 **USDA FoodData Central""
+**(HTF-04)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  | Food searching          | User types in a food      |  Search results show matching user input                |                   |
@@ -193,6 +194,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  7  | Invalid search input          |  User types random characters in the search bar               |  Search results end up blank, or try to get the closest related result              |      |
 
 **HealthKit <--> Supabase (health_daily_stats)**
+**(HTS-04)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  | Health data fetch for correct user          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                   |
