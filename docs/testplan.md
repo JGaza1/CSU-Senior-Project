@@ -192,7 +192,11 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  6  | USDA failure           | User is within the search food section                | Failed USDA request doesn't crash the app and displays a message instead             |      |
 |  7  | Invalid search input          |  User types random characters in the search bar               |  Search results end up blank, or try to get the closest related result              |      |
 
-
+**HealthKit <--> Supabase (health_daily_stats)**
+| #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
+| --: | --------- | ----- | ---------------- | ----------------- |
+|  1  | Health data fetch          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                   |
+|  2  |           |       |                  |                   |
 
 
 USER-ACCEPTANCE TEST
