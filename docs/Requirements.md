@@ -685,7 +685,7 @@ None
 HTS-03
 
 **Type:**  
-**Security**
+**Functional**
 
 **Description:**  
 The app will use Supabase as a way to store user data that Apple HealthKit doesn't cover
@@ -695,6 +695,34 @@ To utilize the database and organize data
 
 **Fit Criterion:**  
 A user has set a goal that is stored in a goals table in Supabase
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTS-04
+
+**Type:**  
+**Functional**
+
+**Description:**  
+The app will use values acquired from Apple health into supabase database
+
+**Rationale:**  
+To utilize the database and organize data
+
+**Fit Criterion:**  
+A user has active and resting calories within apple health through Apple HealthKit, and they are saved to health_daily_stats table in supabase
 
 **Priority:**  
 
