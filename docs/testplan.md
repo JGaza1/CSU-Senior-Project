@@ -195,8 +195,9 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 **HealthKit <--> Supabase (health_daily_stats)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
-|  1  | Health data fetch          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                   |
-|  2  |           |       |                  |                   |
+|  1  | Health data fetch for correct user          | The logged in user fetches their steps, active, and resting calories       |  The steps, active, and resting calories are connected to the user's ID in supabase                |                   |
+|  2  | HealthKit data updates to the existing user in supabase(No duplicate rows for the same user)          |       |                  |                   |
+|  3  | Different users in the same device         | User 1 logs out and User 2 signs in      |  In supabase there should be separate health_profiles                |                   |
 
 
 USER-ACCEPTANCE TEST
