@@ -137,7 +137,7 @@ Evaluate all reports introduced in previous releases.
 
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | OBSERVED |
 | --: | --------- | ----- | ---------------- | -------- |
-|  1  |           |       |                  |          |
+|  1  | Authentication          |       |                  |          |
 |  2  |           |       |                  |          |
 
 
