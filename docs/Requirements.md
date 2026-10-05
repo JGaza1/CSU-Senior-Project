@@ -303,7 +303,7 @@ HTF-09
 **Functional**
 
 **Description:**  
-The app will automatically track the calories burned with apple healthkit
+The app will automatically track the calories burned with apple health
 
 **Rationale:**  
 In order for the app to function to its purpose, the calories must be tracked with the apple watch
@@ -669,6 +669,32 @@ To hide user passwords in the database
 
 **Fit Criterion:**  
 If the source code were to be seen by anyone, passwords would be hashed
+
+**Priority:**  
+
+|**High**|
+
+**Dependencies:**  
+None
+
+---
+
+## Requirement: <ID>
+
+**ID:**  
+HTS-03
+
+**Type:**  
+**Security**
+
+**Description:**  
+The app will use Supabase as a way to store user data that Apple HealthKit doesn't cover
+
+**Rationale:**  
+To utilize the database and organize data
+
+**Fit Criterion:**  
+A user has set a goal that is stored in a goals table in Supabase
 
 **Priority:**  
 

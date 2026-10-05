@@ -154,6 +154,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 
 
 **Supabase Authentication**
+**(HTS-02)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  | Supabase Authentication         | When the user creates a new account and goes through onboarding, new AUTH_USER is created in supabase      | Upon logging in to supabase there is a new row in every table relating to the user                 |                   |
@@ -162,6 +163,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 
 
 **Supabase Database**
+**(HTS-03)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  |  Supabase Database (health_profile)         | User hits "Save and Continue" on the onboarding      | New row is inserted in table: health_profiles                  |                   |
@@ -170,6 +172,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  4 | Supabase Database (Correct User)           | User's goals, health profile, and goals are set      |  The right user data is shown for the correct user                |                   |
 
 **Apple HealthKit**
+**(HTF-09)**
 | #   | OBJECTIVE | INPUT | EXPECTED RESULTS | TEST DELIVERABLES |
 | --: | --------- | ----- | ---------------- | ----------------- |
 |  1  | HealthKit Authorization          | After user goes through onboarding      | Message will pop up requesting user to accept health data tracking and displaying                 |                   |
@@ -188,6 +191,7 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 |  5  | No search          | When the user searches with an empty search bar                 | User is not able to press search                |      |
 |  6  | USDA failure           | User is within the search food section                | Failed USDA request doesn't crash the app and displays a message instead             |      |
 |  7  | Invalid search input          |  User types random characters in the search bar               |  Search results end up blank, or try to get the closest related result              |      |
+
 
 
 
