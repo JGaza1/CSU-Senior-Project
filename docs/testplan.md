@@ -38,12 +38,19 @@ A health app that helps users with their health and fitness goals.
 
 ### Testing Objectives
 
-Lay out test plans for Unit Test, Regression Test, Integration Test, and User Acceptance Test
-
+- Start with unit tests
+- Check for errors and fix 
+- Move on to Regression test and check for errors 
+- Do integration testing (Supabase, USDA, Apple HealthKit)
+- Gather users for user acceptance testing
 ### Features to be Tested
 
 (List the features of the software/product to be tested with references to the 
 Requirements and/or Design specifications of the features to be tested.)
+
+- Apple HealthKit
+- Supabase 
+- USDA
 
 
 ### Features Not to Be Tested
@@ -235,7 +242,7 @@ form, *scenarios*, scripts to read, and data collection methods.
 
 ### User-Acceptance Test Strategy
 
-(Explain how user acceptance testing will be accomplished.)
+- Three users will be testing the full functionality of the app. They will go through the normal process of account creation and setting up their goals. Testing will involve having them connecting to their apple health so that calories, steps, etc. can be shown. Verify that USDA data works well with logging in food and showing up in the food logs. Verify that progress bar is progressing in relation to their goals.
 
 ### User-Acceptance Test Cases
 
@@ -247,6 +254,13 @@ form, *scenarios*, scripts to read, and data collection methods.
 **Explanation**
 - User acceptance testing will be accomplished by creating a new account and going through the onboarding process on the same device
 - Another user from another device will also create their own account and go through the onboarding process**
+- Testing process will consist of continuous feedbaack from different users as they test the app.
+- Feedback will accumulate to find new issues or suggestions as user testing increases
+- User 1 will create an account, go through onboarding, set a goal, go to dashboard, log in food, see calories, etc.
+- User 1 will provide feedback and I will acknowledge and make changes if needed.
+- User 2 will go through the same process and provide feedback
+- User 3 will also go through the same process and provide feedback
+- 
 
 
 Test Deliverables
