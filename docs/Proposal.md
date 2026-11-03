@@ -1,8 +1,8 @@
 Project Health
 ===================================================
 
-**Student Name(s)**: Joseph Gaza 
-**Degree and Major**: B.S. in Computer Science
+**Student Name(s)**: Joseph Gaza   
+**Degree and Major**: B.S. in Computer Science  
 **Project Advisor Name**: Dr. Hayes
 **Expected Graduation Date**: August 2027
 
@@ -141,7 +141,7 @@ Schedule 📅
         - Download the required packages related to supabase
         - Start implementing the registration for the user
         - Set up database(PostgreSQL) for registered users
-    -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight) (Onboarding Process)
+    -   September 7 - 8 - Implement the new user screen (Asks for age, height, weight, and goal) (Onboarding Process)
         - Include backend logic for creating and logging into the app
         - Integrate supabase into backend code
     -   September 14-15 - Make an ERD mapping out the database design of Project Health
@@ -150,17 +150,18 @@ Schedule 📅
         - Create a main menu (dashboard) showing progress on goals if goals were set. Show stats 
         - Add different goal types
     -   September 21 - Pull food and nutrition from USDA FoodData Central API 
-    -   September 22 - Implement users manually logging in food they ate
-    -   September 28 - Implement the workouts (research apple healthkit)
-    -   September 29 - Create charts to show progression to the user in terms of calories burned. 
+    -   September 22 - Implement users manually logging in food they ate. Implement a food log view
     -   October 5 - Complete Test Plans
-    - October 12 - 13 - Start implementing gamification (Gatcha)
-    - October 19 - 20 - Make custom images with google gemini, ChatGPT, or with help from friends
-    - October 26 - 27 - Implement Google gemini to generate meal plans (Or ChatGPT)
-    - November 2 - 3 - Create test cases and/or test plans and clean up code
+    - October 26 - 27 - Implement Steps goal and logic. Implement multiple goals
+    - October 31 - Implement user profile view
+    - November 1 - 8 - Start implementing gamification (Gatcha)
+    - November 15 - Create charts to show progression to the user in terms of calories burned. 
+    - November 16 - Create test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
-    -   Weeks 1-4 - Implement test plan
+    -   Week 1 - Implement Google gemini to generate meal plans (Or ChatGPT)
+    -   Week 2 - Implement the workouts (research apple healthkit)
+    -   Weeks 5 - Implement test plan
     -   Week 5 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
     -   Week 8 - Complete the first 4 chapters of the defense documentation.
