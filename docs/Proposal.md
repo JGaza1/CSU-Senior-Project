@@ -161,8 +161,8 @@ Schedule 📅
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
     -   Week 1 - Implement Google gemini to generate meal plans (Or ChatGPT)
     -   Week 2 - Implement the workouts (research apple healthkit)
-    -   Weeks 5 - Implement test plan
-    -   Week 5 - Evaluate test results
+    -   Week 3 - Implement test plan
+    -   Week 4 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
     -   Week 8 - Complete the first 4 chapters of the defense documentation.
 
