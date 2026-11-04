@@ -154,7 +154,8 @@ Schedule 📅
     -   October 5 - Complete Test Plans
     - October 26 - 27 - Implement Steps goal and logic. Implement multiple goals
     - October 31 - Implement user profile view
-    - November 1 - 8 - Start implementing gamification (Gatcha) (Implement goal time frame)
+    - November 1 - 8 - Start implementing gamification (Gatcha)
+    - November 8 - Implement goal time frame
     - November 15 - Create charts to show progression to the user in terms of calories burned. Create script for user acceptance testing
     - November 16 - Do test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
