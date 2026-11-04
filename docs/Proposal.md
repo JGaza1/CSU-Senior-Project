@@ -155,8 +155,8 @@ Schedule 📅
     - October 26 - 27 - Implement Steps goal and logic. Implement multiple goals
     - October 31 - Implement user profile view
     - November 1 - 8 - Start implementing gamification (Gatcha)
-    - November 15 - Create charts to show progression to the user in terms of calories burned. 
-    - November 16 - Create test cases and/or test plans and clean up code
+    - November 15 - Create charts to show progression to the user in terms of calories burned. Create script for user acceptance testing
+    - November 16 - Do test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
     -   Week 1 - Implement Google gemini to generate meal plans (Or ChatGPT)
