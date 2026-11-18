@@ -160,11 +160,12 @@ Schedule 📅
     - November 16 - Do test cases and/or test plans and clean up code
     - November 20 - Minimum Viable project completed
 *   Spring 2027 - CSCI 499 (more details will be added here once you are closer)
+    -   Week 0 - Redesign UI
     -   Week 1 - Implement Google gemini to generate meal plans (Or ChatGPT)
     -   Week 2 - Create charts to show progression to the user in terms of calories burned.  
     -   Week 3 - Implement the workouts (research apple healthkit) add friends
     -   Week 4 - Implement test plan
-    -   Week 4 - Evaluate test results
+    -   Week 6 - Evaluate test results
     -   Week 6-10 - Apply updates and bug fixes based on the results
     -   Week 8 - Complete the first 4 chapters of the defense documentation.
 
