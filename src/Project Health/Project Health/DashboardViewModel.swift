@@ -232,6 +232,10 @@ class DashboardViewModel: ObservableObject {
             // Immediately update the Dashboard
             currentWeight = newWeight
             
+            // Refresh active goals after Supabase
+            // checks whether a weight goal was completed.
+            await loadDashboard()
+            
             print(
                 "Weight updated to \(newWeight) lbs."
             )

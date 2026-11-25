@@ -234,33 +234,16 @@ Evaluate all integrations with locally developed shared libraries, with consumed
 
 USER-ACCEPTANCE TEST
 --------------------
+User-Acceptance test will involve three users. They will generally point out any bugs and recommend any quality of life changes.
 
-Verify that the solution works for potential user. Include the method (e.g.,
-heuristic, performance measures, thinking aloud, observation, questionnaire, 
-interviews, etc.), the number of participants and demographics, the concent
-form, *scenarios*, scripts to read, and data collection methods.
 
 ### User-Acceptance Test Strategy
 
-- Three users will be testing the full functionality of the app. They will go through the normal process of account creation and setting up their goals. Testing will involve having them connecting to their apple health so that calories, steps, etc. can be shown. Verify that USDA data works well with logging in food and showing up in the food logs. Verify that progress bar is progressing in relation to their goals.
+- Three users will be testing the full functionality of the app. They will go through the normal process of account creation and setting up their goals. Testing will involve having them connecting to their apple health so that calories, steps, etc. can be shown. Verify that USDA data works well with logging in food and showing up in the food logs. Verify that progress bar is progressing in relation to their goals. And verify that the gamification works as intended. One user will go at a time and provide feedback. I will make changes and then the next user will test the app and so on. 
 
 ### User-Acceptance Test Cases
 
-| #   | TEST ITEM | EXPECTED RESULTS | ACTUAL RESULTS | DATE |
-| --: | --------- | ---------------- | -------------- | ---- |
-|  1  | Complete the flow of Project Health with (Creating account, onboarding, dashboard) (Logging in, dashboard) (**Developer**)       | Creating account works, Onboarding works, Apple health permission is granted, Dashboard displays correct info, food search, and food details work with no errors                |                |      |
-|  2  | Complete the flow of Project Health with (Creating account, onboarding, dashboard) (Logging in, dashboard) (**Outside User**)         |  Creating account works, Onboarding works, outside user grants permission to show health info, Dashboard displays correct info, food search, and food details work with no errors               |                |      |
-
-**Explanation**
-- User acceptance testing will be accomplished by creating a new account and going through the onboarding process on the same device
-- Another user from another device will also create their own account and go through the onboarding process**
-- Testing process will consist of continuous feedbaack from different users as they test the app.
-- Feedback will accumulate to find new issues or suggestions as user testing increases
-- User 1 will create an account, go through onboarding, set a goal, go to dashboard, log in food, see calories, etc.
-- User 1 will provide feedback and I will acknowledge and make changes if needed.
-- User 2 will go through the same process and provide feedback
-- User 3 will also go through the same process and provide feedback
-- 
+https://docs.google.com/document/d/1BTSxlwuWl6riC67D2wk_5dgVBAp_kiZhqEipMXcdIpc/edit?usp=sharing
 
 
 Test Deliverables
@@ -276,15 +259,19 @@ Test Deliverables
 
 Schedule
 --------
+- Dec 13 - User 1 will test and provide feedback
+- Dec 19 - Receive test and feedback results and make changes if needed
 
-(Provide a summary of the testing schedule, specifying key test milestones, 
-and/or provide a link to the detailed schedule.)
+- Jan 3 - User 2 will test and provide feedback
+- Jan 9 - Receive test and feedback results and make changes if needed
+
+- Jan 10 - User 3 will test and provide feedback
+- Jan 16 - Receive test and feedback results and make changes if needed
 
 Risks
 -----
 
--   (If any risks have been identified, list them here.)
--   (Specify the mitigation plan and the contingency plan for each risk.)
+-   Account security risk (Unsure of the reliability of supabase). Will look further into supabase and evaluate.
 
 
 Appendix

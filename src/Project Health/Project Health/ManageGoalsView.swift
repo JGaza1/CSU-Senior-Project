@@ -350,6 +350,23 @@ struct ManageGoalsView: View {
                         .foregroundColor(.green)
                 }
             }
+            
+            // MARK: - Goal History
+
+            Section("Goal History") {
+
+                NavigationLink {
+
+                    GoalHistoryView()
+
+                } label: {
+
+                    Label(
+                        "View Completed Goals",
+                        systemImage: "clock.arrow.circlepath"
+                    )
+                }
+            }
         }
         .navigationTitle("Manage Goals")
         .navigationBarTitleDisplayMode(.inline)
